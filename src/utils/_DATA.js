@@ -7,7 +7,8 @@ let users = {
       "8xf0y6ziyjabvozdd253nd": 'a',
       "6ni6ok3ym7mf1p33lnez": 'a',
       "am8ehyc8byjqgar0jgpub9": 'b',
-      "loxhs1bqm25b708cmbf3g": 'd'
+      "loxhs1bqm25b708cmbf3g": 'd', 
+      "loxhs1bqm25b708cmbf3h":'a',
     },
     polls: ['8xf0y6ziyjabvozdd253nd', 'am8ehyc8byjqgar0jgpub9']
   },
@@ -15,6 +16,17 @@ let users = {
     id: 'tylermcginnis',
     name: 'Tyler McGinnis',
     avatarURL: 'https://tylermcginnis.com/would-you-rather/tyler.jpg',
+    answers: {
+      "vthrdm985a262al8qx3do": 'a',
+      "xj352vofupe1dqz9emx13r": 'a',
+      "loxhs1bqm25b708cmbf3h":'d',
+    },
+    polls: ['loxhs1bqm25b708cmbf3g', 'vthrdm985a262al8qx3do'],
+  },
+   neilhighley: {
+    id: 'neilhighley',
+    name: 'Neil Highley',
+    avatarURL: 'https://secure.gravatar.com/avatar/bc08d2345eec6e4943581c4ba43245f6',
     answers: {
       "vthrdm985a262al8qx3do": 'a',
       "xj352vofupe1dqz9emx13r": 'a',
@@ -120,6 +132,28 @@ let polls = {
     },
     d: {
       text: 'Kanye West',
+      votes: ['sarah_edo'],
+    }
+  },
+  "loxhs1bqm25b708cmbf3h": {
+    id: 'loxhs1bqm25b708cmbf3h',
+    question: "Which artist do you like?",
+    author: 'neilhighley',
+    timestamp: 1482579767190,
+    a: {
+      text: 'Picasso',
+      votes: [],
+    },
+    b: {
+      text: 'Monet',
+      votes: [],
+    },
+    c: {
+      text: 'Manet',
+      votes: [],
+    },
+    d: {
+      text: 'Hokusai',
       votes: ['sarah_edo'],
     }
   },
