@@ -164,7 +164,7 @@ let polls = {
     timestamp: 1489579767190,
     a: {
       text: 'Eden, Utah',
-      votes: ['tylermcginnis'],
+      votes: ['tylermcginnis','neilhighley'],
     },
     b: {
       text: 'Kauai, HI',
@@ -186,7 +186,7 @@ let polls = {
     timestamp: 1493579767190,
     a: {
       text: 'Kanye West',
-      votes: ['dan_abramov'],
+      votes: ['dan_abramov','neilhighley'],
     },
     b: {
       text: 'Donald Trump',
